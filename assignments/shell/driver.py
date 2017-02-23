@@ -103,7 +103,7 @@ if __name__ == '__main__':
         
         
         
-        """p
+        """p  *****this is our idea implementation of piping,which gives me lot of errors,so kept in  comments
         if cmmd.find('|'):
             cmmd=cmmd.split('|')
             var1=cmmd[0]
@@ -139,6 +139,13 @@ if __name__ == '__main__':
             var1=cmmd[0]
             var2=cmmd[1]
             one_cmd(var1)
+	    one_cmd(var1)
+            temp=open('/root/mdr.txt','r')
+            ofile=open('out.txt','a')
+            for line in temp.readlines():
+                ofile.write(line)
+            temp.close()
+            ofile.close()
         else:
 		
 """		

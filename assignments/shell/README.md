@@ -26,7 +26,8 @@
 |who| |list useres currently logged in|
 |history||show a history of all your commands|
 |chmod xxx||change modify permission|
-
+#command not implemented and working
+piping ,commands with &,file-std redirection and less
 >Group Members
 >
 | Name     | Email   | Github Username |

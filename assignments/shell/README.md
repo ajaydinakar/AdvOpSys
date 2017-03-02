@@ -1,6 +1,6 @@
-#DATE : 2/21/2017
-#TITLE : SHELL PROJECT
-#PROJECT DESCRIPTION :This program implements shell commands cat,chmod,cd,cd ..,etc as in the below list 
+#                                     DATE : 2/21/2017
+#                                    TITLE : SHELL PROJECT
+###PROJECT DESCRIPTION :This program implements shell commands cat,chmod,cd,cd ..,etc as in the below list 
                       Note:code written in python
                       execution command: python driver.py
                       implementation:give the commands one by one after the % sign
@@ -56,8 +56,8 @@
 | `chmod xxx`         | change modify permission | 
 
 #command not implemented and working
-###chmod working ,but dont know weather it is changing the permisions as intended
-###& after command ,have trying, but not implemented in this project by this time 
+###->chmod working ,but dont know weather it is changing the permisions as intended
+###->& after command ,have trying, but not implemented in this project by this time 
 >Group Members
 >
 | Name     | Email   | Github Username |
@@ -67,10 +67,10 @@
 | THIRUPATHI REDDY PARSHURAMGARI  | thirupathi.idks126@gmail.com | thirupathireddy-parshuramgari |
 
 #REFERENCES
-http://stackoverflow.com
-https://docs.python.org/2/library/os.html
-for colors  https://www.youtube.com/watch?v=TvOKST5A6kI
-https://docs.python.org/2/library/shutil.html
-https://docs.python.org/2/library/os.html @@used while doing ls function
+->http://stackoverflow.com
+->https://docs.python.org/2/library/os.html
+->for colors  https://www.youtube.com/watch?v=TvOKST5A6kI
+->https://docs.python.org/2/library/shutil.html
+->https://docs.python.org/2/library/os.html @@used while doing ls function
 
                      

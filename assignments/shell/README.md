@@ -56,7 +56,7 @@
 | `chmod xxx`         | change modify permission | 
 
 #command not implemented or not working as intended
-###->chmod working ,but dont know weather it is changing the permisions as intended
+###->chmod working ,but dont change the permisions as intended.Trying to fix that
 ###->& after command ,have trying, but not implemented in this project by this time 
 >Group Members
 >

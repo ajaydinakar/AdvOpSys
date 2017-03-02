@@ -56,8 +56,8 @@
 | `chmod xxx`         | change modify permission | 
 
 #command not implemented and working
-chmod working ,but dont know weather it is changing the permisions as intended
-& after command ,have trying, but not implemented in this project by this time 
+###chmod working ,but dont know weather it is changing the permisions as intended
+###& after command ,have trying, but not implemented in this project by this time 
 >Group Members
 >
 | Name     | Email   | Github Username |

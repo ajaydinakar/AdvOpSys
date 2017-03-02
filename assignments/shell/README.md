@@ -15,7 +15,6 @@
 |                |    `-a`	  |   list all show hidden files      |
 |                |    `-l`	  |    long listing                   |
 |                |    `-lh`	  |long listing    human readable sizes           |
-|                |    `-a`	  |   list all show hidden files      |
 |                |    `-la`	  |    long listing including hidden files                  |
 |                |     `-lah`| longlisting of all files including hidden with human readable sizes|
 | `mkdir`	     |             |make a directory                  |

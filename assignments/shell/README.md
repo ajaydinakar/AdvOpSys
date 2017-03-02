@@ -17,14 +17,14 @@
 |                |    `-lh`	  |long listing    human readable sizes           |
 |                |    `-a`	  |   list all show hidden files      |
 |                |    `-la`	  |    long listing including hidden files                  |
-|                |    `-h`	  | list files   longlisting ,human readable sizes along with hidden files           |
-
 | `mkdir`	     |             |make a directory                  |
 | `cd`           |  `directory` |change to named directory         |
 | `cd`	         |             |change to home-directory          |
 |                |   `~	`      |change to home-directory           |
 | 	             |   `..`      |change to parent directory          | 
 | `pwd`	         |             |display the path of the current directory |
+
+
 
 | Command | Params      |Meaning                                  |
 |---------|-----------|-------------------------------|
@@ -62,9 +62,10 @@ chmod working ,but dont know weather it is changing the permisions as intended
 >
 | Name     | Email   | Github Username |
 |----------|---------|-----------------|
+| AJAY DINAKAR KANDAVALLI   | ajaydinakar6@gmail.com | ajaydinakar |
 | SAIKIRAN REDDY NAGULAPALLY  | saikiranreddy791@outlook.com| saikiranreddy-nagulapally |
 | THIRUPATHI REDDY PARSHURAMGARI  | thirupathi.idks126@gmail.com | thirupathireddy-parshuramgari |
-| AJAY DINAKAR KANDAVALLI   | ajaydinakar6@gmail.com | ajaydinakar |
+
 #REFERENCES
 http://stackoverflow.com
 https://docs.python.org/2/library/os.html

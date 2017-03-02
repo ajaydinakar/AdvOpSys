@@ -67,10 +67,10 @@
 | THIRUPATHI REDDY PARSHURAMGARI  | thirupathi.idks126@gmail.com | thirupathireddy-parshuramgari |
 
 #REFERENCES
-->http://stackoverflow.com
-->https://docs.python.org/2/library/os.html
-->for colors  https://www.youtube.com/watch?v=TvOKST5A6kI
-->https://docs.python.org/2/library/shutil.html
-->https://docs.python.org/2/library/os.html @@used while doing ls function
+###->http://stackoverflow.com
+###->https://docs.python.org/2/library/os.html
+###->for colors  https://www.youtube.com/watch?v=TvOKST5A6kI
+###->https://docs.python.org/2/library/shutil.html
+###->https://docs.python.org/2/library/os.html @@used while doing ls function
 
                      

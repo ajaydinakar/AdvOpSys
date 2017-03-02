@@ -6,6 +6,7 @@
            
                       Note:code written in python
                       execution command: python driver.py
+<<<<<<< HEAD
                       implementation:give the commands one by one after the % sign
                       geting out of shell:give "exit" command for quiting from shell                 
 
@@ -17,12 +18,19 @@
                for colors  https://www.youtube.com/watch?v=TvOKST5A6kI
                  https://docs.python.org/2/library/shutil.html
                  https://docs.python.org/2/library/os.html @@used while doing ls function
+=======
+    Team members:Ajay Dinakar Kandavalli,Saikiran Reddy Nagulapally,Thirupathi Reddy P
+  
+    @References :http://stackoverflow.com
+                 https://docs.python.org/2/library/os.html
+>>>>>>> df6543660a3550ddd25403ab5e1f0f2df5f6d94c
    ***********************************************************************************
 """
 from cmds import commands 
 import threading
 import sys
 import os
+<<<<<<< HEAD
 from colorama import *
 """run_command function executes each command function when called through assosiating 
    each function with a new seperate thread
@@ -31,6 +39,17 @@ from colorama import *
 def one_cmd(var,ret=None):  #This function calls  various functions that implement command function through threads
     var=var.split(" ")
 
+=======
+import pwd
+"""run_command function executes each command function when called through assosiating 
+   each function with a new seperate thread
+"""
+def one_cmd(var):  #This function calls  various functions that implement command function through threads
+    var=var.split(" ")
+
+        #print(var)
+
+>>>>>>> df6543660a3550ddd25403ab5e1f0f2df5f6d94c
     if len(var) < 1:
         print("give a command after % sign like %cat filename etc")
         sys.exit(0)
@@ -39,6 +58,7 @@ def one_cmd(var,ret=None):  #This function calls  various functions that impleme
         var.append(None)
 
     cmd =var[0]
+<<<<<<< HEAD
     if cmd == 'ls':
         run_command(commands.ls,var[1],)
     elif cmd == 'pwd':
@@ -51,6 +71,15 @@ def one_cmd(var,ret=None):  #This function calls  various functions that impleme
             var[1]="one"
             run_command(commands.cat,var[1],var[2])
 
+=======
+#    print(len(var))
+    if cmd == 'ls':
+        run_command(commands.ls,var[1])
+    elif cmd == 'pwd':
+        run_command(commands.pwd)
+    elif cmd == 'cat':
+        run_command(commands.cat,var[1])
+>>>>>>> df6543660a3550ddd25403ab5e1f0f2df5f6d94c
     elif cmd == 'cd':
         run_command(commands.chgdir,var[1])
 
@@ -65,15 +94,22 @@ def one_cmd(var,ret=None):  #This function calls  various functions that impleme
     elif cmd == 'rmdir':
         run_command(commands.rmdir,var[1])
     elif cmd == 'head':
+<<<<<<< HEAD
         run_command(commands.hd,var[1],ret)
     elif cmd == 'tail':
         run_command(commands.tail,var[1],ret)
+=======
+        run_command(commands.hd,var[1])
+    elif cmd == 'tail':
+        run_command(commands.tail,var[1])
+>>>>>>> df6543660a3550ddd25403ab5e1f0f2df5f6d94c
     elif cmd == 'exit':
         return;
         run_command(commands.exit)
     elif cmd == 'less':
         run_command(commands.less,var[1])
     elif cmd == 'grep':
+<<<<<<< HEAD
         if len(var)==3:
             run_command(commands.grep,var[2],var[1])
         else:
@@ -85,6 +121,11 @@ def one_cmd(var,ret=None):  #This function calls  various functions that impleme
             var.append(var[1])
             var[1]="one"
             run_command(commands.wc,var[1],var[2])
+=======
+        run_command(commands.grep,var[2],var[1])
+    elif cmd == 'wc':
+        run_command(commands.wc,var[1])
+>>>>>>> df6543660a3550ddd25403ab5e1f0f2df5f6d94c
     elif cmd == 'sort':
         run_command(commands.sort,var[1])
     elif cmd == 'who':
@@ -100,16 +141,28 @@ def one_cmd(var,ret=None):  #This function calls  various functions that impleme
     else:
         print("give the command in the implementation list")
     return;
+<<<<<<< HEAD
 # the threading function run_command
+=======
+
+>>>>>>> df6543660a3550ddd25403ab5e1f0f2df5f6d94c
 def run_command(cmd,arg1=None,arg2=None):
 
 
     if arg1 is None and arg2 is None:
+<<<<<<< HEAD
         t = threading.Thread(target=cmd) #for functions with no arguments
     elif arg2 is None:
         t = threading.Thread(target=cmd,args=(arg1,)) #for functions with one argument
     else:
         t = threading.Thread(target=cmd,args=(arg1,arg2)) #for function with two argument
+=======
+        t = threading.Thread(target=cmd)
+    elif arg2 is None:
+        t = threading.Thread(target=cmd,args=(arg1,))
+    else:
+        t = threading.Thread(target=cmd,args=(arg1,arg2))
+>>>>>>> df6543660a3550ddd25403ab5e1f0f2df5f6d94c
     t.start()
     t.join()
 
@@ -117,6 +170,7 @@ if __name__ == '__main__':
     while True:
         print("give your shell command or type exit to exit")
 
+<<<<<<< HEAD
         line=raw_input(Fore.GREEN+"% "+Fore.RESET)          #take the line command from user
         hist=open('/root/history.txt','a')  # store the command in history
         hist.write(line)
@@ -189,4 +243,64 @@ if __name__ == '__main__':
         else:    
             one_cmd(line)
 
+=======
+        cmmd=raw_input("%")
+        
+        
+        
+        
+        """p  *****this is our idea implementation of piping,which gives me lot of errors,so kept in  comments
+        if cmmd.find('|'):
+            cmmd=cmmd.split('|')
+            var1=cmmd[0]
+            var2=cmmd[1]
+            one_cmd(var1)
+            var2=var2+" "+"md.txt"
+            one_cmd(var2)
+        elif cmmd.find('>'):
+            cmmd=cmmd.split('>')
+            var1=cmmd[0]
+            var2=cmmd[1]
+            one_cmd(var1)
+            temp=open('/root/mdr.txt','r')
+            ofile=open('out.txt','a')
+            for line in temp.readlines():
+                ofile.write(line)
+            temp.close()
+            ofile.close()
+        elif cmmd.find('>>'):
+            cmmd=cmmd.split('>>')
+            var1=cmmd[0]
+            var2=cmmd[1]
+            one_cmd(var1)
+            temp=open('/root/mdr.txt','r')
+            ofile=open('out.txt','a')
+            for line in temp.readlines():
+                ofile.write(line)
+            temp.close()
+            ofile.close()
+
+        elif cmmd.find('>'):
+            cmmd=cmmd.split('>')
+            var1=cmmd[0]
+            var2=cmmd[1]
+            one_cmd(var1)
+	    one_cmd(var1)
+            temp=open('/root/mdr.txt','r')
+            ofile=open('out.txt','a')
+            for line in temp.readlines():
+                ofile.write(line)
+            temp.close()
+            ofile.close()
+        else:
+		
+"""		
+		
+        
+        
+        one_cmd(cmmd)
+
+        if cmmd == 'exit':
+            break
+>>>>>>> df6543660a3550ddd25403ab5e1f0f2df5f6d94c
 

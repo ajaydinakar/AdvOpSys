@@ -18,7 +18,7 @@ We didn’t add to the starter code in project, but took it as reference and wro
 Pie Chart for Participation:
 ----------------------------
 
-http://i63.tinypic.com/2nuq2kg.png
+![](http://i63.tinypic.com/2nuq2kg.png)
 
 Files in the project.
 ---------------------------

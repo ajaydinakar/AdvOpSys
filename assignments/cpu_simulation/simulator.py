@@ -240,7 +240,7 @@ if __name__ == "__main__":
     s1 = Simulator()
     s2 = Simulator()
     s1.run(inputfile) #for sending output to  file out.txt  
-    sys.stdout = f	#this sens the console output to a file
+    sys.stdout = f	#this sends the console output to a file
     s2.run(inputfile)
     f.close()
     	

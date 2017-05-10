@@ -15,7 +15,7 @@ Team member information:
 
 Code attributed to members of the team.
 ---------------------------------------
-We didn’t add to the starter code in project, but took it as reference and wrote differently to look concise and efficient with few new modules and methods like . Also, we didn’t used fifo.py, clock.py in our code as in starter code, instead of fifo.py we used a module called deque from collections library. Every member in the team supported each and have given contribution in every module in the project with 100% effort. Every one learned a lot in the project by researching about the python language, oops concepts, working with inbuilt python libraries and modules etc. Can’t give credits to a particular group member and its team effort.  
+We didn’t add to the starter code in project, but took it as reference and wrote differently to look concise and efficient with few new modules and methods  . Also, we didn’t used fifo.py, clock.py in our code as in starter code, instead of fifo.py we used a module called deque from collections library. Every member in the team supported each and have given contribution in every module in the project with 100% effort. Every one learned a lot in the project by researching about the python language, oops concepts, working with inbuilt python libraries and modules etc. Can’t give credits to a particular group member and its team effort.  
 
 Pie Chart for Participation:
 ----------------------------

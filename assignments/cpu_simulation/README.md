@@ -1,6 +1,6 @@
 # DATE :5/9/17
-# Title Scheduling Project
- Team 6.
+# Title: Scheduling Project
+# Team No :6
 ---------------------------
 
 Team member information:

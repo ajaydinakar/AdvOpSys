@@ -26,19 +26,20 @@ Files in the project.
 * Scheduling Folder
 
 	* Components Folder
+	    
 	   cpu.py  
     
-    memory.py
+           memory.py
     
-    process.py 
+           process.py 
 
-    semaphore.py 
+           semaphore.py 
 
-    sim_components.py 
+           sim_components.py 
 
-    events.py
+           events.py
 
-    scheduler.py
+           scheduler.py
 
 		
 		
@@ -53,10 +54,11 @@ Files in the project.
 	
 	
 	* simulation.py( driver code for  the program)
- * out.txt(output file generated from simulation ,contains the output)
+	
+        * out.txt(output file generated from simulation ,contains the output)
+	
 	* Readme.md textfile.
 
 Time each team member spent working on project.
 ---------------------------
-It took the team over a week to finish the project. Each individual had to work separately and constantly trying to merge
-each portion of the code to the existing snippets available so as to be sure it works correctly with other parts.
+It took  21 days to complete the project,at starting most of the time spent for analizing the starter code and trying various approaches t solve the projects.

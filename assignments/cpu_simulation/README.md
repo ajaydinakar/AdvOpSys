@@ -1,7 +1,9 @@
-Readme file for team 6.
+# DATE :5/9/17
+#Title Scheduling Project
+ Team 6.
 ---------------------------
 
-Team Information:
+Team member information:
 
 | Name                         | Email           | Github Username  |
 | -----------------------------|:---------------:| ----------------:|

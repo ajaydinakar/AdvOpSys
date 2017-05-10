@@ -23,7 +23,7 @@ Pie Chart for Participation:
 Files in the project.
 ---------------------------
 
-* Scheduling Folder
+* cpu_simulation Folder
 
      * Components Folder
 	 

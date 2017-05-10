@@ -28,11 +28,11 @@ Files in the project.
      * Components Folder
 	 
 	        cpu.py 
-               memory.py
-               process.py 
-               semaphore.py
-               events.py
-               scheduler.py
+           memory.py
+	       process.py 
+           semaphore.py
+           events.py
+           scheduler.py
 	        sim_components.py 
 
 		

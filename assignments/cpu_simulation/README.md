@@ -47,7 +47,7 @@ Files in the project.
 		
 	
 	
-       * simulation.py( driver code for  the program)
+       * simulator.py( driver code for  the program)
 	
        * out.txt(output file generated from simulation ,contains the output)
 	

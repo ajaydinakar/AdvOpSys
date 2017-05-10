@@ -1,4 +1,4 @@
-Readme file for team 10.
+Readme file for team 6.
 ---------------------------
 
 Team Information:
@@ -25,40 +25,34 @@ Files in the project.
 
 * Scheduling Folder
 
-	* Components Folder
-	    
-	   cpu.py  
-    
-           memory.py
-    
-           process.py 
-
-           semaphore.py 
-
-           sim_components.py 
-
-           events.py
-
-           scheduler.py
+     * Components Folder
+	 
+	       cpu.py 
+               memory.py
+               process.py 
+               semaphore.py
+               events.py
+               scheduler.py
+	       sim_components.py 
 
 		
 		
-	* Input_data Folder
+      * Input_data Folder
 		
-		jobs_in_a.txt
+	     	jobs_in_a.txt
 		
-		jobs_in_b.txt
+    		 jobs_in_b.txt
 		
-		jobs_in_c.txt
+     		jobs_in_c.txt
 		
 	
 	
-	* simulation.py( driver code for  the program)
+       * simulation.py( driver code for  the program)
 	
-        * out.txt(output file generated from simulation ,contains the output)
+       * out.txt(output file generated from simulation ,contains the output)
 	
-	* Readme.md textfile.
+       * Readme.md textfile.
 
-Time each team member spent working on project.
----------------------------
+Time  spent working on project by the team.
+---------------------------------------------
 It took  21 days to complete the project,at starting most of the time spent for analizing the starter code and trying various approaches t solve the projects.
